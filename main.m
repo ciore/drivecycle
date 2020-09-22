@@ -20,6 +20,6 @@
 
 clear
 
-cycle = drivecycle.import('NEDC')
+cycle = drivecycle.import('WLTP3')
 
 drivecycle.plotdc(cycle,'t','vel')

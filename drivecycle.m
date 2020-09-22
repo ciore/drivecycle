@@ -22,9 +22,9 @@ classdef drivecycle
     %%
     function drivecycle=import(drivecycle)
       if ~isstruct(drivecycle)
-        name=drivecycle;
-        drivecycle=[]
-        drivecycle.name=name;
+        name = drivecycle;
+        drivecycle = [];
+        drivecycle.name = name;
       end
       tabledata = [drivecycle.name,'.xlsx'];
       t = readtable(tabledata);
